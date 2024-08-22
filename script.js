@@ -1,8 +1,8 @@
 //your JS code here. If required.
 
-let student = {
+let myObj = {
 	name : 'Sriram'
 }
 
-const keys = Object.keys(student);
+const keys = myObj.getKeys();
 console.log(keys)
