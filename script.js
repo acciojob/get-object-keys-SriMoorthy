@@ -4,5 +4,5 @@ let myObj = {
 	name : 'Sriram'
 }
 
-const keys = myObj.getKeys();
+const keys = Object.keys(myObj);
 console.log(keys)
