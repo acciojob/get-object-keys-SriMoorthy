@@ -4,5 +4,9 @@ let myObj = {
 	name : 'Sriram'
 }
 
-const keys = Object.keys(myObj);
+Object.prototype.getKeys = function () {
+	return Object.keys(this)
+}
+
+const keys = myObj.getKeys();
 console.log(keys)
